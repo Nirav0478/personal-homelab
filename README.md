@@ -16,6 +16,7 @@ Starting in the Summer of 2024, I have had a personal server made from an old Ga
 - A Samba share folder
 
 ## Gallery
+> I will also be sure to publish the Docker images I have on this repo soon.
 
 ## Potential Improvements
 - Set up Nginx or Apache for HTTPS support

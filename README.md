@@ -14,9 +14,9 @@ Starting in the Summer of 2024, I have had a personal server made from an old Ga
 - PiHole
 - Plex
 - A Samba share folder
+> I will also be sure to publish the Docker images I have on this repo soon.
 
 ## Gallery
-> I will also be sure to publish the Docker images I have on this repo soon.
 
 ## Potential Improvements
 - Set up Nginx or Apache for HTTPS support

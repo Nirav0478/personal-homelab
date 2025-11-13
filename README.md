@@ -6,7 +6,7 @@ Starting in the Summer of 2024, I have had a personal server made from an old Ga
 - Operating System: Debian 12 Stable
 - RAM: 8GB
 - Storage: 7TB of HDD space, combined with JBOD
-> More details will come soon, as soon as I visit my parent's house to log the rest of the specs!
+> More details will come soon, as soon as I visit my parents' house to log the rest of the specs!
 
 ## Software
 - UFW

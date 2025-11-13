@@ -17,8 +17,8 @@ Starting in the Summer of 2024, I have had a personal server made from an old Ga
 > I will also be sure to publish the Docker images I have on this repo soon.
 
 ## Gallery
-[A front view of the desktop server](assets/20251026_114914.jpg)
-[A rear view of the desktop server](assets/20251026_114923.jpg)
+![A front view of the desktop server](assets/20251026_114914.jpg)
+![A rear view of the desktop server](assets/20251026_114923.jpg)
 
 ## Potential Improvements
 - Set up Nginx or Apache for HTTPS support

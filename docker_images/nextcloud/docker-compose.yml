@@ -1,0 +1,26 @@
+services:
+  db:
+    image: mariadb
+    restart: unless-stopped
+    command: --innodb-flush-log-at-trx-commit=2 --innodb-flush-method=O_DSYNC --transaction-isolation=READ-COMMITTED --innodb-buffer-pool-size=256M
+    env_file:
+      - db.env
+    volumes:
+      - db_data:/var/lib/mysql
+
+  app:
+    image: nextcloud:latest
+    container_name: nextcloud_app
+    restart: always
+    ports:
+      - 8080:80
+    volumes:
+      - nextcloud_data:/var/www/html
+    environment:
+      MYSQL_HOST: db
+    env_file:
+      - db.env
+
+volumes:
+  db_data:
+  nextcloud_data:

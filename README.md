@@ -15,9 +15,9 @@ Starting in the Summer of 2024, I have had a personal server made from an old Ga
 - A Samba share folder
 
 ## Gallery
-[A front view of the desktop server](assets/20251026_114914.jpg)
-[A rear view of the desktop server](assets/20251026_114923.jpg)
-[A view of Nextcloud hub UI](assets/112925_135346)
+![A front view of the desktop server](assets/20251026_114914.jpg)
+![A rear view of the desktop server](assets/20251026_114923.jpg)
+![A view of Nextcloud hub UI](assets/112925_135346)
 *TODO: add a photo of my PiHole admin panel*
 
 ## Potential Improvements

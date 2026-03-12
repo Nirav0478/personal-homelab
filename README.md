@@ -4,7 +4,7 @@ Starting in the Summer of 2024, I have had a personal server made from an old Ga
 
 ## Specifications
 - Operating System: Debian 12 Stable
-- RAM: 8GB
+- RAM: 8GB DDR2
 - CPU: Intel Core 2 Quad Q9650
 - Storage: 7TB of HDD space, combined with JBOD
 

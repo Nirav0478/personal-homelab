@@ -16,8 +16,7 @@ Starting in the Summer of 2024, I have had a personal server made from an old Ga
 - (new!) Tailscale for remote access
 
 ## Gallery
-![A front view of the desktop server](assets/20251026_114914.jpg)
-![A rear view of the desktop server](assets/20251026_114923.jpg)
+![A front view of the desktop server](assets/20251026_114914.jpg) ![A rear view of the desktop server](assets/20251026_114923.jpg)
 ![A view of Nextcloud hub UI](assets/112925_135346.png)
 ![A view of Pihole hub UI](assets/260312_175926.png)
 

@@ -22,6 +22,6 @@ Starting in the Summer of 2024, I have had a personal server made from an old Ga
 *TODO: add a photo of my PiHole admin panel*
 
 ## Potential Improvements
-✅ ~Use a VPN like Wireguard for remote access~
+- ~Use a VPN like Wireguard for remote access~
 - Set up Nginx or Apache for HTTPS support
 - Potentially host a Minecraft Server

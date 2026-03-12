@@ -18,6 +18,7 @@ services:
       - nextcloud_data:/var/www/html
     environment:
       MYSQL_HOST: db
+      NEXTCLOUD_TRUSTED_DOMAINS: 100.64.237.9 lx6810-server.tail707164.ts.net
     env_file:
       - db.env
 

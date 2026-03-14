@@ -1,3 +1,5 @@
 *.env
 docker_images/pihole/etc-pihole/*
 docker_images/pihole/etc-dnsmasq.d/*
+docker_images/jellyfin/config/*
+docker_images/jellyfin/cache/*

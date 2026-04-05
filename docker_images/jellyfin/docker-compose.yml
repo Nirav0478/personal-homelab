@@ -8,11 +8,11 @@ services:
       - 8096:8096/tcp
       - 7359:7359/udp
     volumes:
-      - /home/cocotreb/docker_images/jellyfin/config:/config
-      - /home/cocotreb/docker_images/jellyfin/cache:/cache
+      - /srv/jellyfin/config:/config
+      - /srv/jellyfin/cache:/cache
       - type: bind
-        source: /home/cocotreb/media
-        target: /media
+        source: /srv/jellyfin/media/
+        target: /media/
         read_only: true
       # Optional - extra fonts to be used during transcoding with subtitle burn-in
       # - type: bind

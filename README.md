@@ -24,7 +24,7 @@ NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
 sda      8:0    0   2.7T  0 disk
 └─sda1   8:1    0   2.7T  0 part /srv/jellyfin
 sdb      8:16   0   2.7T  0 disk
-└─sdb1   8:17   0   2.7T  0 part /var/lib/docker/volumes
+└─sdb1   8:17   0   2.7T  0 part /srv/nextcloud
 sdc      8:32   0 931.5G  0 disk
 ├─sdc1   8:33   0   923G  0 part /
 ├─sdc2   8:34   0   500M  0 part /boot

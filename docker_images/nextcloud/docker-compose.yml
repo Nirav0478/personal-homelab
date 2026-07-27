@@ -6,7 +6,7 @@ services:
     env_file:
       - db.env
     volumes:
-      - db_data:/var/lib/mysql
+      - /srv/nextcloud/db:/var/lib/mysql
 
   app:
     image: nextcloud:latest
@@ -15,13 +15,9 @@ services:
     ports:
       - 8080:80
     volumes:
-      - nextcloud_data:/var/www/html
+      - /srv/nextcloud/app:/var/www/html
     environment:
       MYSQL_HOST: db
-      NEXTCLOUD_TRUSTED_DOMAINS: 100.64.237.9 lx6810-server.tail707164.ts.net
+      NEXTCLOUD_TRUSTED_DOMAINS: 100.64.237.9 lx6810-server
     env_file:
       - db.env
-
-volumes:
-  db_data:
-  nextcloud_data:

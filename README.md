@@ -40,7 +40,7 @@ sdd      8:48   0   1.8T  0 disk
 ![A view of Nextcloud hub UI](assets/nextcloud.png)
 ![A view of Pihole's Admin Panel](assets/pihole.png)
 ![A view of Jellyfin's Admin Panel](assets/jellyfin.png)
-![The SearXNG homepage](assets/jellyfin.png)
+![The SearXNG homepage](assets/searxng.png)
 
 ## Potential Improvements
 - ~Use a VPN like Wireguard for remote access~

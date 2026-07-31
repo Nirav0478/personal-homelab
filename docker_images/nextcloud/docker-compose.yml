@@ -19,5 +19,3 @@ services:
     environment:
       MYSQL_HOST: db
       NEXTCLOUD_TRUSTED_DOMAINS: 100.64.237.9 lx6810-server
-    env_file:
-      - db.env

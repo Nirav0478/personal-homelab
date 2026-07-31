@@ -6,7 +6,7 @@ Starting in the Summer of 2024, I have had a personal server made from an old Ga
 - Operating System: Debian 12 Stable
 - RAM: 8GB DDR2
 - CPU: Intel Core 2 Quad Q9650
-- Storage: 7TB of HDD space, combined with JBOD
+- Storage: [See *Drive Structure*](#drive-structure)
 
 ## Software
 - UFW
@@ -15,9 +15,10 @@ Starting in the Summer of 2024, I have had a personal server made from an old Ga
 - A Samba share folder
 - Jellyfin
 - Tailscale for remote access
+- (NEW) SearXNG
 
 ## Drive Structure
-Below is the output of `lsblk`. My root, boot, and swap partitions are on a 1TB SSD. One 3TB drive is for my jellyfin server, the other is for docker volumes (mainly used by Nextcloud).
+Below is the output of `lsblk`. My root, boot, and swap partitions are on a 1TB SSD. One 3TB drive is for my Jellyfin server, the other is for docker volumes (mainly used by Nextcloud).
 My 2TB SSD is currently unused, it will probably be a backup solution.
 ```
 NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
@@ -39,6 +40,7 @@ sdd      8:48   0   1.8T  0 disk
 ![A view of Nextcloud hub UI](assets/nextcloud.png)
 ![A view of Pihole's Admin Panel](assets/pihole.png)
 ![A view of Jellyfin's Admin Panel](assets/jellyfin.png)
+![The SearXNG homepage](assets/jellyfin.png)
 
 ## Potential Improvements
 - ~Use a VPN like Wireguard for remote access~

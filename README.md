@@ -45,4 +45,5 @@ sdd      8:48   0   1.8T  0 disk
 ## Potential Improvements
 - ~Use a VPN like Wireguard for remote access~
 - Set up Nginx or Apache for HTTPS support
+- Switch to K8s? Or use a Docker container management tool like portainer
 - Potentially host a Minecraft Server

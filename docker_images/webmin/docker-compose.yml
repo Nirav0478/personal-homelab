@@ -1,0 +1,15 @@
+volumes:
+  webmin:
+    name: "webmin"
+
+services:
+  webmin:
+    container_name: webmin
+    image: longlivethepenguin/webmin:20250819
+    hostname: docker-webmin
+    volumes:
+      - webmin:/etc/webmin
+    ports:
+      - 10000:10000
+    network_mode: bridge
+    restart: unless-stopped

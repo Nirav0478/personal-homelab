@@ -11,7 +11,6 @@ Starting in the Summer of 2024, I have had a personal server made from an old Ga
 ## Software
 - UFW
 - Nextcloud
-- PiHole
 - A Samba share folder
 - Jellyfin
 - Tailscale for remote access
@@ -38,8 +37,8 @@ sdd      8:48   0   1.8T  0 disk
 ![A front view of the desktop server](assets/irlphoto-0.jpg)
 ![A rear view of the desktop server](assets/irlphoto-1.jpg)
 ![A view of Nextcloud hub UI](assets/nextcloud.png)
-![A view of Pihole's Admin Panel](assets/pihole.png)
 ![A view of Jellyfin's Admin Panel](assets/jellyfin.png)
+![A view of the Webmin UI](assets/webmin.png)
 ![The SearXNG homepage](assets/searxng.png)
 
 ## Potential Improvements
@@ -47,3 +46,4 @@ sdd      8:48   0   1.8T  0 disk
 - Set up Nginx or Apache for HTTPS support
 - Switch to K8s? Or use a Docker container management tool like portainer
 - Potentially host a Minecraft Server
+- Make the Jellyfin and Nextcloud drives BTRFS?

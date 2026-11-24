@@ -17,5 +17,5 @@ services:
     volumes:
       - /srv/nextcloud/app:/var/www/html
     environment:
-      MYSQL_HOST: db
-      NEXTCLOUD_TRUSTED_DOMAINS: 100.64.237.9 lx6810-server
+      - MYSQL_HOST=db
+      - NEXTCLOUD_TRUSTED_DOMAINS=lx6810-server 192.168.4.58

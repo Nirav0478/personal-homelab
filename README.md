@@ -2,6 +2,8 @@
 
 Starting in the Summer of 2024, I have had a personal server made from an old Gateway LX6810 desktop that was previously sitting in my parents' garage. It now serves as a media, backup, and experimentation server that I mess around with every so and then.
 
+Also includes my SystemD service to beep the motherboard twice on startup when SSH is ready. Move it to `/etc/systemd/system/` then `sudo systemctl start startup-beeps.service`.
+
 ## Specifications
 - Operating System: Debian 12 Stable
 - RAM: 8GB DDR2

@@ -1,0 +1,11 @@
+[Unit]
+Description=Beep when SSH is ready
+After=ssh.service
+After=ssh.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c 'beep -f 1000 -l 100; sleep 0.3; beep -f 1000 -l 100'
+
+[Install]
+WantedBy=multi-user.target
